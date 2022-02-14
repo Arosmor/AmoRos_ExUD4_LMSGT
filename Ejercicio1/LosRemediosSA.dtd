@@ -1,0 +1,14 @@
+<!ELEMENT losremediossa (pedido)>
+<!ELEMENT pedido (sucursal,cod_sucursal,nombre_trabajador,fecha_pedido,observaciones,articulos)>
+<!ELEMENT sucursal (#PCDATA)>
+<!ELEMENT cod_sucursal (#PCDATA)>
+<!ELEMENT nombre_trabajador (#PCDATA)>
+<!ELEMENT fecha_pedido (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT articulos (articulo)>
+<!ELEMENT articulo (cod_articulo,unidades,precio_unidad,observaciones_articulo,plazo_revision)>
+<!ELEMENT cod_articulo (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT precio_unidad (#PCDATA)>
+<!ELEMENT observaciones_articulo (#PCDATA)>
+<!ELEMENT plazo_revision (#PCDATA)>

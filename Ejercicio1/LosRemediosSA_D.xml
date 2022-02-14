@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE losremediossa SYSTEM "LosRemediosSA.dtd">
+<losremediossa>
+    <pedido>
+        <sucursal> Ubrique </sucursal>
+        <cod_sucursal>F8456975</cod_sucursal>
+        <nombre_trabajador>Amos</nombre_trabajador>
+        <fecha_pedido>13/02/2022</fecha_pedido>
+        <observaciones>-</observaciones>
+        <articulos>
+            <articulo>
+                <cod_articulo>EER-568</cod_articulo>
+                <unidades>2</unidades>
+                <precio_unidad>12€</precio_unidad>
+                <observaciones_articulo>-</observaciones_articulo>
+                <plazo_revision>24€</plazo_revision>
+            </articulo>
+        </articulos>
+    </pedido>
+</losremediossa>
